@@ -95,3 +95,26 @@ button:hover{
     cursor: pointer;
 }
 
+@media(max-width:768px){
+
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width:100%;
+}
+.image img{
+    object-fit:cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+
+.text{
+    width:100%;
+    box-sizing: border-box;
+}
+}
